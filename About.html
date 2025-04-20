@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Website</title>
+  <link rel="icon" href="https://i.pinimg.com/736x/ec/bf/66/ecbf66484f8439fd7021f3ef224a50a8.jpg">
+
+  <style>
+    body {
+      font-size: 20px;
+      font-family: Calibri, sans-serif;
+      text-align: center;
+      margin: 40px;
+      background-image: url('images/bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    img {
+      height: 400px;
+      width: 300px;
+      align-self: auto;
+    }
+
+    h1 {
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: gray;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 60px;
+    }
+
+    nav ul li a {
+      display: inline-block;
+      padding: 8px 15px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .navbar a:hover {
+      background-color: black;
+    }
+
+    .about {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      margin-top: 50px;
+      color: white;
+      text-align: left;
+    }
+
+    .about-text {
+      flex: 1;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .about-img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .section h3 {
+      margin-bottom: 8px;
+      color: gray;
+      font-family: 'Times New Roman', serif;
+    }
+
+    .section p {
+      margin: 2px 0;
+      padding: 2px 0;
+    }
+
+    footer {
+      background-color: gray;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+      font-family: 'Calibri', sans-serif;
+      font-size: 16px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        margin: 20px;
+        font-size: 18px;
+      }
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+      }
+  .about-img {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  .about-text {
+   text-align: center;
+  }
+ nav ul {
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 10px;
+   gap: 20px;
+   display: flex;
+ }
+ nav ul li {
+   margin: 0 10px;
+ }
+ nav ul li a {
+   padding: 6px 10px;
+   font-size: 16px;
+ }
+ }
+  </style>
+</head>
+
+<body>
+  <h1>More About Me</h1>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="about">
+    <img src="images/me2.jpg" alt="Me" class="about-img">
+
+    <div class="about-text">
+      <div class="section">
+        <h3>Biography</h3>
+        <p>I was born on March 29, 2006, in Cabanatuan City. From a young age, I’ve always been curious and eager to learn, starting school as early as 3 years old. Growing up, I was the kind of kid who would spend hours tinkering with gadgets, watching YouTube tutorials, or getting lost in video games.</p>
+        <p>These games weren’t just a way to pass the time — they became a gateway to discovering the world of technology.</p>
+        <p>My passion for gaming eventually led me to become interested in how things work behind the screen. I was inspired by my uncle, who also studied BSIT at NEUST. Watching him code, fix hardware issues, and build tech projects made me realize I wanted to follow the same path.</p>
+        <p>Although I had no background in computer science before entering college, I’ve never let that stop me. I may not be the most experienced or the fastest learner, but I’m determined. I embrace every challenge as an opportunity to grow.</p>
+      </div>
+
+      <div class="section">
+        <h3>Education</h3>
+        <p>Pre-School: Apostolic Faith Church (<b>Outstanding Student</b>)</p>
+        <p>Elementary: Dominican High School (<b>Honor Student</b>)</p>
+        <p>Junior High School: Lazaro Francisco Integrated School</p>
+        <p>Senior High School: Manuel V. Gallego Foundation Colleges (<b>Consistent Honor Student</b>)</p>
+        <p>College: Nueva Ecija University of Science and Technology</p>
+      </div>
+
+      <div class="section">
+        <h3>Experiences</h3>
+        <p>Community Service</p>
+        <p>Volunteer Work</p>
+        <p>Essay Writing Competition</p>
+        <p>Club Officer</p>
+        <p>Classroom Officer</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy;2025 Roxas, Angel Coki. All rights reserved.
+  </footer>
+</body>
+
+</html>
